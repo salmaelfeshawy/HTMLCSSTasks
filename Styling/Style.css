@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: red;
+  padding: 15px 0px 10px 30px;
+}
+
+.header ul {
+  list-style-type: none;
+}
+
+.header ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.header ul li a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.content {
+  height: 70vh;
+  background: url("/Images/ecomm.jpg") no-repeat;
+  background-size: 100% 70vh;
+}
+
+.content h1 {
+  padding: 15px;
+  font-size: 20px;
+  color: white;
+}
+
+.products {
+  margin-top: 70px;
+}
+
+.products h2 {
+  text-align: center;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.products .pro {
+  border: 2px solid rgba(183, 179, 179, 0.5);
+  border-radius: 5px;
+  width: 20%;
+  height: 42vh;
+  display: inline-block;
+  margin: 50px 60px;
+  padding: 20px;
+  text-align: center;
+}
+
+.products .pro img {
+  display: inline-block;
+  width: 50%;
+  height: 20vh;
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.products .pro .title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.products .pro .description {
+  font-size: 12px;
+  opacity: 0.6;
+  margin: 10px 0px;
+  line-height: 1.4;
+}
+.products .pro a {
+  display: block;
+  width: 50%;
+  margin: auto;
+  text-decoration: none;
+  font-size: 14px;
+  background-color: rgb(108, 4, 4);
+  border-radius: 5px;
+  padding: 3px ;
+  color: white;
+}
