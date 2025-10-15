@@ -10,11 +10,13 @@
     position: relative;
     top: 100px;
     padding: 20px;
+    border-radius: 5px;
 }
 
 .form div {
     background-color: rgb(6, 69, 69);
     padding: 20px 0px 20px 20px;
+    border-radius: 10px;
 }
 
 .form div input,
@@ -27,6 +29,10 @@
     border-bottom: 2px solid white;
     padding: 10px 0px 10px 10px;
     background-color: transparent
+}
+
+textarea {
+    height: 10vh;
 }
 
 .form input::placeholder,
