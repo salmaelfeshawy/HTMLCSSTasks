@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    padding: 10px 150px;
+
+}
+
+.social img {
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+
+.logo img {
+    height: 30px;
+    width: 50px;
+    padding: 10px;
+}
+
+.div1 {
+    margin-bottom: 50px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.div1img img {
+    width: 400px;
+    height: 400px;
+}
+
+.links h1 {
+    color: #227539;
+    padding-top: 20px;
+}
+
+.links a {
+    display: inline-block;
+    width: 130px;
+    height: 20px;
+    margin: 70px 30px 70px 0px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+a[class=firstb] {
+    background-color: #227539;
+    color: white;
+}
+
+a[class=secondb] {
+    background-color: #c2c2c2;
+    color: black;
+    font-weight: bold;
+}
+
+.div2 {
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #c2c2c2;
+    padding: 20px 0px 10px;
+}
+
+.image img {
+    width: 750px;
+    height: 500px;
+    margin-top: 40px;
+    margin-left: -250px;
+    position: relative;
+    z-index: 2;
+}
+
+.rect {
+    width: 200px;
+    height: 100%;
+    background-color: #227539;
+    position: relative;
+    left: 220px;
+    z-index: 1;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background-color: #64d99c;
+    position: relative;
+    z-index: 3;
+    right: 170px;
+    border-radius: 50%;
+}
+
+.div3 {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.head {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.head h1 {
+    font-size: 50px;
+    color: #227539;
+    margin-bottom: 30px;
+}
+
+.clients {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.client {
+    width: 400px;
+    height: 350px;
+    text-align: center;
+    background-color: #c2c2c2;
+    border-radius: 5px;
+    margin: 0px 20px;
+}
+
+.clients img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+.clients p {
+    padding: 20px;
+}
+
+.clients h3 {
+    color: #227539;
+    font-weight: bold;
+}
+
+.div4 {
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    position: relative;
+}
+
+.fimag img {
+    width: 600px;
+    height: 500px;
+}
+
+.simag {
+    width: 400px;
+    height: 400px;
+    background-color: #c2c2c2;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.simag p {
+    color: #227539;
+    font-size: 40px;
+    padding: 90px 30px 50px;
+    font-weight: bold;
+}
+
+.simag a {
+    background-color: #227539;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin-left: 35px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fimag::before {
+    content: "";
+    background-color: #227539;
+    height: 300px;
+    width: 30px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.simag::before {
+    content: "";
+    background-color: #227539;
+    height: 250px;
+    width: 30px;
+    position: absolute;
+    top: 10%;
+    left: 63.2%;
+}
+
+.div5 {
+    height: 500px;
+    background-color: #c2c2c2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.div5 h2 {
+    text-align: center;
+    font-size: 50px;
+    color: #227539;
+}
+
+.form1 {
+    height: 380px;
+    width: 800px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ margin: auto;
+    padding-top: 30px;
+}
+
+input[type=text], input[type=email] 
+{
+    background-color: #c2c2c2;
+    margin: 8px 40px;
+    padding: 10px;
+    width: 700px;
+    height: 20px;
+    border-radius: 5px;
+    border: transparent;
+}
+
+textarea {
+    background-color: #c2c2c2;
+    margin: 8px 40px;
+    padding: 10px;
+    width: 700px;
+    border-radius: 5px;
+    border: transparent;
+}
+
+input::placeholder,
+textarea::placeholder {
+    padding: 10px;
+}
+
+input[type=submit] 
+{
+    display: inline-block;
+    background-color: #227539;
+    width: 150px;
+    padding: 10px;
+  margin-left: 40%;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  border: transparent;
+}
